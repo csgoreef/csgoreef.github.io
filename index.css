@@ -1,39 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 body{
 	background-color: #111114;
-}
-.home-div-main {
-  position: fixed;
-  width: 15%;
-  height: 15%;
-  top: 50%;
-  left: 50%;
-  margin-top: -2.5%;
-  margin-left: -8%;
-}
-.home-div-image {
-	min-width: 160px ;
-	width: 100%;
+	margin: auto 0;
 }
 
-.home-div-sub{
-	outline: none;
-	cursor: default;
-	min-width: 160px;
-	min-height: 30px;
+.nav{
+	min-width: 200px;
+	min-height: 60px;
 	width: 100%;
-	height: 30%;
-	background-color:#19191d;
-	border-radius: 10px;
+	height: 20%;
+	background-color: #141417;
 }
-
+.nav .img{
+	position: relative;
+	width: 150px;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+    margin-left: -80px;
+}
+.welcome{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 50%;
+	font-size: 1.5em;
+	color: #3eb557;
+}
 .text{
-	color:#FFFFFF;
-	font-size: 15px;
-  	position: relative;
-  	top: 50%;
-  	left: 50%;
-  	text-align:center;
-  	transform: translate(-50%, -50%);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	width: 50%;
+	min-width: 400px;
+	font-size: 1.2em;
+	color: #d9d9d9;
+	margin-bottom: 20px;
+}
+.howto{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 50%;
+	font-size: 1.5em;
+	color: #ff3e48;
+}
+.prizes{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 50%;
+	font-size: 1.5em;
+	color: #ffe564;
+}
+.sales{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 50%;
+	font-size: 1.5em;
+	color: #e564ff;
 }
